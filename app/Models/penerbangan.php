@@ -7,5 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class penerbangan extends Model
 {
-    use HasFactory;
+    protected $table = 'penerbangan';
+    public function detail_pesanan()
+    {
+        return $this->hasMany(pemesanan::class, 'id_penerbangan', 'id_penerbangan');
+    }
 }
