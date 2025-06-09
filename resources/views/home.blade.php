@@ -26,7 +26,7 @@
 
     <div class="row justify-content-center">
         <div class="col-md-12 mb-4">
-            <h1 class="text-center mt-5">Mau Kemana Hari Ini?     </h1>
+            <h1 class="text-center mt-5">Mau Kemana Hari Ini?</h1>
         </div>
         @foreach ($penerbangan as $penerbangan)
         <div class="col-md-3 mb-4">
