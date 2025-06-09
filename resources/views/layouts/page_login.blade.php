@@ -20,7 +20,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        <nav class="navbar navbar-expand-md navbar-light">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('home') }}">
                     <img src="aset/logoo.png" alt="Logo" style="width: 150px; height: 85px; margin-right: 10px;">
@@ -31,8 +31,16 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav me-auto">
-
+                    <ul class="navbar-nav me-2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url('home') }}">{{ __('Beranda') }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url('about') }}">{{ __('Tentang Kami') }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url('contact') }}">{{ __('Kontak Kami') }}</a>
+                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -40,14 +48,18 @@
                         <!-- Authentication Links -->
                         @guest
                             @if (Route::has('login'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('login') }}">{{ __('Masuk') }}</a>
+                                <li class="nav-item me-2 w-100 w-md-auto">
+                                    <button class="btn btn-outline-primary w-100 w-md-auto" style="border-radius: 30px; margin-bottom: 15px; margin-right: 25px;">
+                                        <a class="nav-link" href="{{ route('login') }}">{{ __('Masuk') }}</a>
+                                    </button>
                                 </li>
                             @endif
 
                             @if (Route::has('register'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Daftar') }}</a>
+                                <li class="nav-item me-2 w-100 w-md-auto">
+                                    <button class="btn btn-primary w-100 w-md-auto" style="border-radius: 30px; margin-right: 25px;">
+                                        <a class="nav-link" href="{{ route('register') }}" style="color: white;">{{ __('Daftar') }}</a>
+                                    </button>
                                 </li>
                             @endif
                         @else
