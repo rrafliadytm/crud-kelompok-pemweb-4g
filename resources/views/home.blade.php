@@ -5,13 +5,13 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" style="height: 500px; width: 100%; object-fit: contain;">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="/assets/banner.jpg" alt="First slide">
+                <img class="d-block w-100" src="" alt="First slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="/assets/banner1.jpg" alt="Second slide">
+                <img class="d-block w-100" src="" alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="/assets/banner2.jpg" alt="Third slide">
+                <img class="d-block w-100" src="" alt="Third slide">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
