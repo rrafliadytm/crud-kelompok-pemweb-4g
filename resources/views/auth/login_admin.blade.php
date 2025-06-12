@@ -43,7 +43,7 @@
                                 {{ __('Ingat Saya') }}
                             </label>
                         </div>
-                        <a href="{{ url("login_admin") }}" class="text-decoration-none text-primary">Login sebagai Admin</a>
+                        <a href="{{ url("login") }}" class="text-decoration-none text-primary">Login sebagai User</a>
                     </div>
                 </div>
             </div>
