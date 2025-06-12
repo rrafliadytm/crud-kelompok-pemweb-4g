@@ -32,15 +32,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-2">
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url('home') }}">{{ __('Beranda') }}</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url('about') }}">{{ __('Tentang Kami') }}</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url('contact') }}">{{ __('Kontak Kami') }}</a>
-                        </li>
+                        
                     </ul>
 
                     <!-- Right Side Of Navbar -->
