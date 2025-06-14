@@ -30,18 +30,6 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav me-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url('home') }}">{{ __('Beranda') }}</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url('about') }}">{{ __('Tentang Kami') }}</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url('contact') }}">{{ __('Kontak Kami') }}</a>
-                        </li>
-                    </ul>
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
@@ -59,14 +47,11 @@
                                 </li>
                             @endif
                         @else
-                            {{-- Keranjang DropDown --}}
-                            <a href="{{ url('create') }}" id="navbarDropdown" class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false" v-pre>
-                                <button class="btn-green-100 px-10 py-2 rounded-md font-semibold">Tambah</button>
+                            {{-- Create Maskapai--}}
+                            <a href="{{ url('home') }}" id="navbarDropdown" class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false" v-pre>
+                                <button class="btn-green-100 px-10 py-2 rounded-md font-semibold">Kembali ke Beranda</button>
                             </a>
 
-                            <a id="navbarDropdown" class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false" v-pre>
-                                <img src="{{ Auth::user()->profile_image ?? '/aset/keranjang.png' }}" alt="Keranjang" class="rounded-circle" style="width: 35px; height: 35px; margin-right: 10px;">
-                            </a>
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     <img src="{{ Auth::user()->profile_image ?? '/aset/profile-icon.png' }}" alt="Profile" class="rounded-circle" style="width: 32px; height: 32px;">
@@ -84,6 +69,11 @@
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                         @csrf
                                     </form>
+
+                                    <div class="flex mt-6">
+                                        <h2 class="font-semibold text-xl">Add Maskapai</h2>
+                                    </div>
+
                                 </div>
                             </li>
                         @endguest
