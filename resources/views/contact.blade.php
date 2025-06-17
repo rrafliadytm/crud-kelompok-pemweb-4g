@@ -17,10 +17,10 @@
                 <div class="col-md-6 mb-4">
                     <h5>Informasi Kontak</h5>
                     <ul class="list-unstyled">
-                        <li><strong>Alamat:</strong> Jl. Dieng No. 123, Malang, Jawat Timur</li>
+                        <li><strong>Alamat:</strong> Jl. Dieng No.170, Malang, Jawat Timur</li>
                         <li><strong>Telepon:</strong> 0823-5210-1010 </li>
                         <li><strong>Email:</strong> support@ayopergi.com</li>
-                        <li><strong>Jam Operasional:</strong> Senin – Jumat, 08:00 – 17:00 WIB</li>
+                        <li><strong>Jam Operasional:</strong> Senin – Jumat, 08:00 – 16:30 WIB</li>
                     </ul>
                 </div>
 
