@@ -12,7 +12,7 @@
             <div style="text-align: justify;">
                 <p><strong>Ayo Pergi</strong> adalah perusahaan teknologi yang berfokus pada penyediaan layanan pemesanan tiket pesawat secara daring. Kami berkomitmen untuk menghadirkan solusi perjalanan udara yang efisien, aman, dan terpercaya bagi pelanggan individu maupun korporasi.Melalui platform digital yang intuitif dan responsif, pelanggan dapat dengan mudah menelusuri, membandingkan, dan memesan tiket penerbangan dari berbagai maskapai domestik maupun internasional dalam waktu singkat. Kami menjembatani kebutuhan perjalanan dengan teknologi, menghadirkan pengalaman pemesanan yang cepat dan bebas hambatan. Didukung oleh tim profesional yang berdedikasi dan infrastruktur teknologi mutakhir, <strong>Ayo Pergi</strong> terus berinovasi untuk memastikan bahwa setiap aspek layanan kami — mulai dari pencarian tiket hingga layanan pelanggan — berjalan optimal demi kenyamanan dan kepuasan pengguna.</p>
 
-                <h4 class="mt-4">Visi Kami</h4>
+                <h4 class="mt-4">Visi Kamih4>
                 <p>Menjadi platform pemesanan tiket pesawat terdepan di Indonesia yang terpercaya, inovatif, dan berorientasi pada kepuasan pelanggan.</p>
 
                 <h4 class="mt-4">Misi Kami</h4>
